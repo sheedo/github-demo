@@ -1,0 +1,21 @@
+   40  git verson
+   41  git version
+   42  git config --global user.name "Rasheed Andrews"
+   43  git config --global user.email "rasheed_andrews@live.com
+"
+   44  git config --global --list
+   45  git clone https://github.com/sheedo/github-demo.git
+   46  ls
+   47  cd github-demo/
+   48  ls
+   49  git status 
+   50  echo "Test git quick start demo" >> start.txt
+   51  ls
+   52  cat start.txt
+   53  git status
+   54  git add start.txt [Working Dir to Stash]
+   55  git status
+   56  git commit -m "Adding start text file" [Stash to Local Repo]
+   57  git status
+   58  git push origin master [Local Repo to Remote Repo]
+   59  history > basic_add_commit.txt
